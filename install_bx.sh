@@ -12,7 +12,7 @@ chmod +x /tmp/Bluemix_CLI/bin/*
 export PATH="/tmp/Bluemix_CLI/bin:$PATH"
 
 # Install Armada CS plugin
-echo "Install the Bluemix container-service plugin"
+echo "Install the Bluemix container-service plugin" 
 bx plugin install container-service -r Bluemix -f
 
 echo "Install kubectl"
